@@ -1,0 +1,13 @@
+Pteron56 changelog
+
+v0.1 
+	Original
+
+v0.2		4/5/21
+	-diode silkscreen moved to b.slks
+	-pro micro silkscreen moved to b.slks
+	-L half diode direction moved to b.slks
+	-reconnected diodes to matrix
+	-moved 4 diode cluster on L half toward the left 1 diode space (to match r half)
+	-increased size of named credits, link size remained the same
+	-joined both halves of ROW1 with a straignt line rather than whatever tf was there before
