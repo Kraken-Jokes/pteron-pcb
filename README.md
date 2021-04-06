@@ -1,5 +1,6 @@
 # pteron-pcb
 ## Intro 
+![Pteron56v0.1 finished](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/Pteron56PCBv0.1%20build.jpg)
 This project is the evolution of the [Pteron-Keyboard](github.com/FSund/pteron-keyboard) project, an incredible ergonomic keyboard that was handwired only.
 
 I aimed to increase the appeal of this board by designing a PCB for it, and through the next months learned how to design one.
@@ -7,8 +8,9 @@ I aimed to increase the appeal of this board by designing a PCB for it, and thro
 Since the case design had to be modified to fit a PCB, it was decided that this would live in a separate repository to make it easier to navigate the files and make sure that the compatible files for either version aren't mixed.
 
 ## Case Assembly
-Starting out, the case is made of stacked acrylic plates. I might look into a molded or cast plate at some point, but my focus is not on that at the moment.\ 
-Each case has 4 plates and multiple m2 hardware pieces. This creates a case with an overall height of ~16mm. You can likely only use a single 1/4" stack plate, you would just need to use 5mm or 6mm m2 standoffs instead (haven't done it though so idk)\
+![PCB Case](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/Pteron56PCBv0.1%20case.png)
+Starting out, the case is made of stacked acrylic plates. I might look into a molded or cast case at some point, but my focus is not on that at the moment.\
+Each case has 4 plates and multiple m2 hardware pieces. This creates a case with an overall height of ~16mm. You can likely only use a single 1/4" stack plate, you would just need to use 5mm or 6mm m2 standoffs instead (haven't done it though so idk)
 
 Qty  | Item
 -----|------
