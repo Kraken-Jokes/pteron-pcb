@@ -43,7 +43,7 @@ Take the stack plates and set them onto the base. They should slide on no proble
 *uwu step keyboardu, your PCB barely fits!\
 fufufufu, I made sure there was a .1mm offset*
 
-![Step4](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/56caseS4.png)
+![Step4](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/56caseS4.jpg)
 Now we're gonna grab the top plate assembly and overturn it onto the base plate. Install a 5mm screw in each of the 10 holes.\
 The standoffs will go into the plate's perimeter holes about 1mm. This helps allignment and adds a fun build step: make sure each screw hole snaps in!
 
