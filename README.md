@@ -6,6 +6,21 @@ This project is the evolution of the [Pteron-Keyboard](github.com/FSund/pteron-k
 I aimed to increase the appeal of this board by designing a PCB for it, and through the next months learned how to design one.
 
 Since the case design had to be modified to fit a PCB, it was decided that this would live in a separate repository to make it easier to navigate the files and make sure that the compatible files for either version aren't mixed.
+## PCB Assembly
+**v0.1 PCB**
+
+Congrats on getting 1 of only 5 ProtoPterons!
+
+As it's the initial offering, there are some quirks that will differ from later versions. 
+
+The left half of the keyboard has the diodes facing the wrong way. Just forgot to rotate those diode pads before making, so be sure to check the pads before soldering. Mark on diode goes toward the square pad.
+
+The silkscreen layers are swapped, so the diodes will go on the opposite side of the PCB than the diode icon, and the pro micro will be soldered onto the underside of the PCB with the chip and bits facing upward toward the PCB.
+
+(insert image of what I mean for clarity)
+
+The clusters of 4 diodes on the left and right side are installed on the top of the PCB. This is purely aesthetic. You can install on the underside, I just personally like it
+
 
 ## Case Assembly
 ![PCB Case](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/Pteron56PCBv0.1%20case.png)
