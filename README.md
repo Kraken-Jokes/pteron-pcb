@@ -17,7 +17,7 @@ The left half of the keyboard has the diodes facing the wrong way. Just forgot t
 
 The silkscreen layers are swapped, so the diodes will go on the opposite side of the PCB than the diode icon, and the pro micro will be soldered onto the underside of the PCB with the chip and bits facing upward toward the PCB.
 
-(insert image of what I mean for clarity)
+![What I mean, look at the diode direction too](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/PM_detail.jpg)
 
 The clusters of 4 diodes on the left and right side are installed on the top of the PCB. This is purely aesthetic. You can install on the underside, I just personally like it
 
