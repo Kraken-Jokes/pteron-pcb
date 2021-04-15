@@ -19,10 +19,14 @@ The silkscreen layers are swapped, so the diodes will go on the opposite side of
 
 ![What I mean, look at the diode direction too](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/PM_detail.jpg)
 
-The clusters of 4 diodes on the left and right side are installed on the top of the PCB. This is purely aesthetic. You can install on the underside, I just personally like it
+The clusters of 4 diodes on the left and right side are installed on the top of the PCB. This is purely aesthetic. You can install on the underside, I just personally like it.
 
+![Micro USB intended run](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/Serpentine%20cable.PNG)
+For the cable, there's a modified micro b USB 6" cable with the end modified to fit in the slot cut in the bottom stack plate with low clearance to fit the case. You can cut it and shorten the cable, but it's intended to just serpentine one of the standoffs to get in line with the hole. You can flip the bottom stack plate around to get the port on the other side. The modifications allow the cable to be held firmly in place by the case when it's all fit together
 
 ## Case Assembly
+*note, the stack plates are no longer two piece with that horrid cut on the sides, though I never took a direct picture of the updated design*
+
 ![PCB Case](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/Pteron56PCBv0.1%20case.png)
 Starting out, the case is made of stacked acrylic plates. I might look into a molded or cast case at some point, but my focus is not on that at the moment.\
 Each case has 4 plates and multiple m2 hardware pieces. This creates a case with an overall height of ~16mm. You can likely only use a single 1/4" stack plate, you would just need to use 5mm or 6mm m2 standoffs instead (haven't done it though so idk)
@@ -53,14 +57,14 @@ Honestly you can install the switches before this step, but I just put them on a
 Grab the base and place a 5mm M2 screw and thread a 12mm M2 standoff on each perimeter hole.
 
 Take the stack plates and set them onto the base. They should slide on no problem but may need to be pushed down gently. Get all the standoffs alligned before giving it the oomph though.
-\
-\
-*uwu step keyboardu, your PCB barely fits!\
-fufufufu, I made sure there was a .1mm offset*
 
 ![Step4](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/56caseS4.jpg)
 Now we're gonna grab the top plate assembly and overturn it onto the base plate. Install a 5mm screw in each of the 10 holes.\
 The standoffs will go into the plate's perimeter holes about 1mm. This helps allignment and adds a fun build step: make sure each screw hole snaps in!
+\
+\
+*uwu step keyboardu, your PCB barely fits!\
+fufufufu, I made sure there was a .1mm offset*
 
 ![Step5](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/56caseS5.png)
 Flip it over, install 8 inner 5mm M2 screws and the 5 keyboard feet. 
