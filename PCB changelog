@@ -1,0 +1,25 @@
+Pteron56 PCB changelog
+
+v0.1 
+	Original
+
+v0.2		4/5/21
+	-diode silkscreen moved to b.slks
+	-pro micro silkscreen moved to b.slks
+	-L half diode direction reversed to match R half
+	-reconnected diodes to matrix
+	-moved 4 diode cluster on L half toward the left 1 diode space (to match r half)
+	-increased size of named credits, link size remained the same
+	-joined both halves of ROW1 with a straignt line rather than whatever tf was there before
+v0.2-HSU
+	-changed switch footprint to MX only circular hole
+		1. resized footprint pin holes 1 and 2 to 1.524mm (Millmax 0305 spec)
+		2. added cool ripple-esque graphics to the footprint
+	-created footprint for MUZHI USB mini b
+*Pteron60v0.1* added. Essentially the same as Pteron56v0.3ul
+	-added 4 keys to the center of rows 2 and 3, logically connected to the holes in row 4. Free pin F5 remains
+	-extended the USB pad out ~5mm to make it more flush with the outside of the case. Seems to work well
+	-replaced Bat56 logo with Bat60 logo
+v0.3ul
+	-unleaded request from a customer. Removed extra 4 keys from the pteron60 update. Extended USB pad remains. Free F5 remains
+	-replaced Bat60 logo with Bat56 logo
