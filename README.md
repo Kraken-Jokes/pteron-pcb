@@ -15,20 +15,26 @@ The V2 case is compatible with all Pteron56 and 60 PCBs, but it was designed to 
 
 Starting out will be the PCB build. 
 ![v0.3ul and diodes](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/PCB%20diodes.jpg)
+
 I've got a quick and dirty way to bend and cut these to the right size and all you need are flush cutters and the PCB.  
 Take the roll of diodes and cut them into 5 or 6 piece strips.  
 Holding the board vertically, take one of the strips and hold it perpendicular to the board with the leads on a straight edge with the diode itself butted up to the top of the board.
+
 ![bending](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/diode%20bending.PNG)
+
 Bend the diode legs till they're flat against the bottom of the board.  
 Flip and do the same thing to the other side of the strip.
 
-Repeat until you've bent all the legs.
+Repeat until you've bent all the legs.  
 ![](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/diode%20cutting.PNG)
-Take your snippers and cut the legs about 3-4mm below the bend. There's a perfect length to dome up on the other side without having too much to need trimming, and it's around that length. Never measured it though
+
+Take your snippers and cut the legs about 3-4mm below the bend. There's a perfect length to dome up on the other side without having too much to need trimming, and it's around that length. Never measured it though  
 ![](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/soldered%20diodes.PNG)
+
 Dissasemble your pile of diodes and place them in the diode spots one by one, mark toward the square pad on the same side as the microcontroller outline. Depending on the PCB version, the diode outlines might be on that side too. 
-Might not, nobody's perfect.
+Might not, nobody's perfect.  
 ![](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/mcu%20install.PNG)
+
 Once the diodes are soldered in, tackle the Pro micro. Install the pins on the board first, solder one pin so you're able to adjust it. Test the fit to the pro micro before soldering the rest of the header pins. Once those are on, drop on the pro micro (chips TOWARD the PCB) with the micro usb connected to make sure it has clearance.
 
 Now for the cool part. We're gonna install the Mini B connector. It goes on the same side of the microcontroller and the best way to get it connected is just to set the board on it on like a block or something, solder one of the legs then adjust if needed. Solder the other legs, then the 5 pins.  
@@ -46,6 +52,7 @@ If you want the quick and dirty: run QMK toolbox, hit auto flash, point it to th
 
 ### Hotswap installation
 ![](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/build%20steps/0305%20on%20MX.PNG)
+
 I like doing it the slow way, so that's what I'm gonna go with. If you have a better way, by all means do what you like.  
 You'll need like 6 donor switches. You might not kill them, but you might so don't use Inks if you can help it.
 
