@@ -8,18 +8,18 @@ I aimed to increase the appeal of this board by designing a PCB for it, and thro
 Since the case design had to be modified to fit a PCB, it was decided that this would live in a separate repository to make it easier to navigate the files and make sure that the compatible files for either version aren't mixed.
 
 ## PCB Assembly
-The V2 case has a few minor alterations from the original, namely the radius around the outer case hardware and a larger radius to blend into the body to add strength to the corners. I have a weird plan for cast rubber pieces that go around the corners/ work as built in anti-slip. Not yet though. 
+The V2 case has a few minor alterations from the original, namely the radius around the outer case hardware and a larger radius to blend into the body to add strength to the corners. I have a weird plan for cast rubber pieces that go around the corners/ work as built in anti-slip. Not yet though.  
 It also has 2 extra bolt points around the USB port. Makes the case close completely without a gap between the plates (small gap, not really noticable unless you're looking for it).
 
 The V2 case is compatible with all Pteron56 and 60 PCBs, but it was designed to work with the USB notch in the Pteron56v0.3ul, v0.3Au, and Pteron60v0.1hsu revisions. You can check on the back of the PCB under one of the bottom outer keys for your PCB's revision.
 
 Starting out will be the PCB build. 
 
-I've got a quick and dirty way to bend and cut these to the right size and all you need are flush cutters and the PCB. 
-Take the roll of diodes and cut them into 5 or 6 piece strips.
+I've got a quick and dirty way to bend and cut these to the right size and all you need are flush cutters and the PCB.  
+Take the roll of diodes and cut them into 5 or 6 piece strips.  
 Holding the board vertically, take one of the strips and hold it perpendicular to the board with the leads on a straight edge with the diode itself butted up to the top of the board.
 
-Bend the diode legs till they're flat against the bottom of the board. 
+Bend the diode legs till they're flat against the bottom of the board.  
 Flip and do the same thing to the other side of the strip.
 
 Repeat until you've bent all the legs.
@@ -31,24 +31,24 @@ Might not, nobody's perfect.
 
 Once the diodes are soldered in, tackle the Pro micro. Install the pins on the board first, solder one pin so you're able to adjust it. Test the fit to the pro micro before soldering the rest of the header pins. Once those are on, drop on the pro micro (chips TOWARD the PCB) with the micro usb connected to make sure it has clearance.
 
-Now for the cool part. We're gonna install the Mini B connector. It goes on the same side of the microcontroller and the best way to get it connected is just to set the board on it on like a block or something, solder one of the legs then adjust if needed. Solder the other legs, then the 5 pins.
+Now for the cool part. We're gonna install the Mini B connector. It goes on the same side of the microcontroller and the best way to get it connected is just to set the board on it on like a block or something, solder one of the legs then adjust if needed. Solder the other legs, then the 5 pins.  
 Take the stripped micro cable and strip the 4 wires in there. Fine strippers or a high dex check and a blade are required.
 
-Solder the cables thusly:
-Red to VBUS,
-White to D-
-Green to D+
-Black to GND
+Solder the cables thusly:  
+Red to VBUS,  
+White to D-  
+Green to D+  
+Black to GND  
 snip the unshielded wire, or connect it to gnd idk
 
-Plug in a mini b cable and connect it to the computer. If you're a power user, you can find all the relevant files to build the keyboard in the /firmware section. 
+Plug in a mini b cable and connect it to the computer. If you're a power user, you can find all the relevant files to build the keyboard in the /firmware section.  
 If you want the quick and dirty: run QMK toolbox, hit auto flash, point it to the hex file for the keyboard you're building and bridge the reset and gnd pins.
 
 ### Hotswap installation
-I like doing it the slow way, so that's what I'm gonna go with. If you have a better way, by all means do what you like. 
+I like doing it the slow way, so that's what I'm gonna go with. If you have a better way, by all means do what you like.  
 You'll need like 6 donor switches. You might not kill them, but you might so don't use Inks if you can help it.
 
-Take your sockets and install them on the legs of your donors. 
+Take your sockets and install them on the legs of your donors.  
 Insert the switches onto the PCB. The legs of the switch hold it tight to the PCB. 
 
 Once you've got all of them on there, flip the board and solder the legs. 
@@ -64,11 +64,11 @@ Take out the switches and set aside the board for case assembly.
 
 You can do the peel first, or as you install parts. I wish you a grand peeling fest!
 
-First we'll want to take the switch plate and connect it to the PCB. This step's complexity is entirely dependant on if it's hotswap or not.
-To prevent the PCB from backing off when installing switches, each anchor point will have a connection. On soldered kits, only the 4 inner points are needed.
+First we'll want to take the switch plate and connect it to the PCB. This step's complexity is entirely dependant on if it's hotswap or not.  
+To prevent the PCB from backing off when installing switches, each anchor point will have a connection. On soldered kits, only the 4 inner points are needed.  
 Install 10mm screws into the top of the plate. Once they're through place a washer, silicone spacer, and washer onto it. Place the PCB on. Tolerances were pretty tight so you might need to push. 
 
-Thread a washer onto each , tighten till it's the correct spacing. Check it by installing a switch.
+Thread a washer onto each , tighten till it's the correct spacing. Check it by installing a switch.  
 Don't thread a washer onto the 4 inner screws. Put a 5mm spacer there. It'll be fastened to the bottom plate. 
 
 Install the switches in the top, then flip and solder. 
@@ -79,23 +79,23 @@ Take the bottom plate, then install a 12mm standoff and a 5mm screw in each hole
 
 Install the connected stack plate, then the stack plate with a gap. 
 
-Place the plate atop the bottom case. You may need to snap each corner in , it's fun.
-If you have a top plate, place those on top of the switch plate. Take a 10mm screw and thread a 5mm spacer all the way to the top. This centers the top plate holes.
+Place the plate atop the bottom case. You may need to snap each corner in , it's fun.  
+If you have a top plate, place those on top of the switch plate. Take a 10mm screw and thread a 5mm spacer all the way to the top. This centers the top plate holes.  
 If you do not have a top plate, install a 5mm screw in each hole to affix it.
 
 Flip it over and install 4 5mm screws to the middle standoffs.
 
 ### angle stands
 
-Take 2 long pieces, and 2 of each mid piece.
-Take 4 5mm screws, then thread them into 4 12mm standoffs. Insert them into the holes, stack them long piece, two short pieces, long piece. 
-Take 4 10mm screws, then thread a 5mm standoff onto the screw to the socket. you can thread those into the holes on the other side of the angle piece. 
+Take 2 long pieces, and 2 of each mid piece.  
+Take 4 5mm screws, then thread them into 4 12mm standoffs. Insert them into the holes, stack them long piece, two short pieces, long piece.  
+Take 4 10mm screws, then thread a 5mm standoff onto the screw to the socket. you can thread those into the holes on the other side of the angle piece.  
 
 Repeat for the other side.
 
 Install the bumpons on the four corners, the center front, and on the front and back of each angle piece
 
-Yay it's all together! 
+Yay it's all together!  
 Install the keycaps then enjoy the keyboard!
 
 I hope you had a fun time building, it was a great joy (and stress) filled journey to make the PCB version of the Pteron56. I'm glad to have helped bring that amazing keyboard design to more people. 
