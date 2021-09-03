@@ -63,6 +63,7 @@ Take out the switches and set aside the board for case assembly.
 ## case assembly
 
 You can do the peel first, or as you install parts. I wish you a grand peeling fest!
+
 First we'll want to take the switch plate and connect it to the PCB. This step's complexity is entirely dependant on if it's hotswap or not.
 To prevent the PCB from backing off when installing switches, each anchor point will have a connection. On soldered kits, only the 4 inner points are needed.
 Install 10mm screws into the top of the plate. Once they're through place a washer, silicone spacer, and washer onto it. Place the PCB on. Tolerances were pretty tight so you might need to push. 
