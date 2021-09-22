@@ -1,0 +1,60 @@
+#include "kb.h"
+
+// Left hand home row mods
+#define GUI_A LGUI_T(KC_A)
+#define ALT_S LALT_T(KC_S)
+#define SFT_F LSFT_T(KC_F)
+#define CTL_D LCTL_T(KC_D)
+
+// Right hand home row mods
+#define CTL_J RSFT_T(KC_J)
+#define SFT_K RCTL_T(KC_K)
+#define ALT_L LALT_T(KC_L)
+#define GUI_SCLN RGUI_T(KC_SCLN)
+
+// Layer mod tap keys
+#define LT1_GUI LT(1,KC_LGUI)
+#define LT1_DEL LT(1,KC_DEL)
+#define LT2_ALT LT(2,KC_LALT)
+#define LT2_APP LT(2,KC_APP) 
+
+//these keycodes are riduculus
+#define KC_MPP KC_MEDIA_PLAY_PAUSE
+#define KC_MNT KC_MEDIA_NEXT_TRACK
+#define KC_MPT KC_MEDIA_PREV_TRACK
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+
+	KEYMAP(
+		KC_ESC, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, 
+		KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_EQL, 
+		KC_BSPC, GUI_A, ALT_S, CTL_D, SFT_F, KC_G, KC_H, CTL_J, SFT_K, ALT_L, GUI_SCLN, KC_QUOT, 
+		KC_SPC, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_ENT, 
+		KC_LGUI, KC_LCTL, KC_LSFT, KC_LALT, KC_VOLD, KC_VOLU, KC_PGDN, KC_PGUP, MO(1), KC_SPC, MO(2), KC_DEL),
+		
+	KEYMAP(
+		KC_GRV, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC, 
+		KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, 
+		KC_VOLU, KC_HOME, KC_BTN1, KC_MS_U, KC_BTN2, KC_WH_U, KC_PGUP, KC_UP, KC_PGDN, KC_MENU, KC_RBRC, KC_TRNS, 
+		KC_VOLD, KC_END,  KC_MS_L, KC_MS_D,  KC_MS_R, KC_WH_D, KC_LEFT, KC_DOWN, KC_RGHT, KC_LBRC, KC_BSLS, KC_TRNS, 
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, LCTL(KC_PLUS), LCTL(KC_MINS), KC_WWW_FORWARD, KC_WWW_BACK, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS ),
+
+	KEYMAP(
+		RESET, KC_SLEP, KC_WAKE, KC_TRNS, KC_PWR, KC_TRNS, KC_6, KC_7, KC_8, KC_9, KC_0, KC_BSPC, 
+		KC_GRV, KC_WBAK, KC_WFWD, KC_WSCH, KC_FIND, KC_TRNS, KC_TRNS, KC_TRNS, KC_MSEL, KC_MYCM, KC_PSLS, KC_PAST, 
+		KC_DEL, KC_CALC, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_1, KC_2, KC_3, KC_4, KC_5, KC_MINS, 
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_6, KC_7, KC_8, KC_9, KC_0, KC_PPLS, 
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPP, KC_MUTE, KC_MNT, KC_MPT, KC_TRNS, KC_TRNS, KC_TRNS, KC_PDOT), 
+
+};
+
+
+void matrix_init_user(void) {
+}
+
+void matrix_scan_user(void) {
+}
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+	return true;
+}
