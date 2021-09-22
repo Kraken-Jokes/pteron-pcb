@@ -1,0 +1,2 @@
+These go in the QMK_firmware/keyboards directory. 
+You can then call them by using -kb pteron56 -km default
