@@ -1,0 +1,2 @@
+These go in QMK_firmware/keyboards.
+Once there, you can build with -kb pteron_60 -km default
