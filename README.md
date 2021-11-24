@@ -1,7 +1,7 @@
 # pteron-pcb
 ## Intro 
 ![Pteron56v0.1 finished](https://github.com/Kraken-Jokes/pteron-pcb/blob/main/images/Pteron56PCBv0.1%20build.jpg)
-This project is the evolution of the [Pteron-Keyboard](github.com/FSund/pteron-keyboard) project, an incredible ergonomic keyboard that was handwired only.
+This project is the evolution of the [Pteron-Keyboard](https://github.com/FSund/pteron-keyboard) project, an incredible ergonomic keyboard that was handwired only.
 
 I aimed to increase the appeal of this board by designing a PCB for it, and through the next months learned how to design one.
 
